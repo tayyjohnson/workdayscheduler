@@ -1,24 +1,28 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: monospace;
   font-size: 16px;
   line-height: 1;
+}
+
+#title {
+  font-family: monospace;
 }
 
 textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: rgb(169, 5, 145)000;
+  border-left: 1px solid rgb(185, 113, 207);
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(169, 5, 145);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgb(185, 113, 207);
 }
 
 .description{
